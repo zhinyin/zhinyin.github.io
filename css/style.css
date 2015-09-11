@@ -1,12 +1,61 @@
-body {
-  background-color: Olive;
+body{
+  font-family: georgia, serif;
+  font-size: 16px;
+  color: #222;
+  background-color: #999;
+  border: 5px dashed #555;
+  vertical-align: baseline;
+  margin: 20px;
+  line-height: 2.5em;
+
 }
 
-h1 {
-  font-size: 73px;
-  margin-bottom: 30px;
+div{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-p { 
-  font-family: sans-serif;
+h1{
+  background-color: #999;
+  padding-bottom: 20px;
+  text-decoration: underline;
 }
+
+.container {
+  width: 500px;
+  padding: 30px;
+}
+
+.container h1{
+  font-family: georgia, serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.container p{
+  font-style: oblique;
+  padding-bottom: 90px;
+}
+
+.project p{
+  font-style: normal;
+  font-size: 15px;
+  background-color: #999;
+  color:#555;
+  border: 20px;
+  padding-bottom: 30px;
+}
+
+.project h2, h3, h4{
+  font-family: georgia, serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.project span{
+  color: white;
+  font-style: italic;
+}
+  
