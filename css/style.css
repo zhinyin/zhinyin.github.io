@@ -1,13 +1,18 @@
 body{
-  font-family: georgia, serif;
-  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
   color: #222;
-  background-color: #999;
-  border: 5px dashed #555;
+  background-color: rgba(145, 188, 188, 0.8);
+  border: 5px dashed #3E8686;
   vertical-align: baseline;
-  margin: 20px;
+  margin: 155px;
   line-height: 2.5em;
+  text-align: left;
 
+  background-color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(../image/sky.jpg);
 }
 
 div{
@@ -15,40 +20,47 @@ div{
   padding-bottom: 5px;
 }
 
-h1{
-  background-color: #999;
-  padding-bottom: 20px;
-  text-decoration: underline;
-}
-
-.container {
-  width: 500px;
-  padding: 30px;
-}
 
 .container h1{
-  font-family: georgia, serif;
-  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  font-size: 35px;
   text-transform: uppercase;
   font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+h1:hover {
+  color: white;
+  font-size: 30px;
+}
+
+.item div {
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  list-style-type: none;
+  text-align: left;
+  color: white;
+  margin-bottom: 30px;
 }
 
 .container p{
-  font-style: oblique;
+  font-style: normal;
   padding-bottom: 90px;
 }
 
 .project p{
   font-style: normal;
   font-size: 15px;
-  background-color: #999;
+  background-color: #B1CECE;
   color:#555;
   border: 20px;
   padding-bottom: 30px;
 }
 
-.project h2, h3, h4{
-  font-family: georgia, serif;
+.project h2{
+  font-family: helvetica, sans-serif;
   font-size: 15px;
   text-transform: uppercase;
   color: black;
@@ -58,4 +70,3 @@ h1{
   color: white;
   font-style: italic;
 }
-  
