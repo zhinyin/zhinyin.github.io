@@ -27,6 +27,7 @@ div{
   font-family: helvetica, sans-serif;
   font-size: 40px;
   text-transform: uppercase;
+  color: rgba(25, 94, 94, 0.6);
   font-weight: bold;
   text-decoration: underline;
   padding-bottom: 70px;
