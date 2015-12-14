@@ -1,0 +1,125 @@
+body {
+	font-family: georgia, serif;
+	font-size: 16px;
+	color:black;
+	border: 10px;
+	vertical-align: baseline;
+	margin: 100px;
+	line-height: 2.5em;
+	background-color: white;
+}
+
+.container h1 {
+	font-family: arial, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #CCCCCC;
+	padding-bottom: 30px;
+	border-bottom: 1px, solid black;
+}
+
+.container p {
+	font-family: arial, sans-serif;
+	font-size: 17px;
+	color:black;
+	background-color: white;
+	clear: both;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	border-bottom: 1px, solid black;
+}
+
+.project h1 {
+	font-family: arial, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color:black;
+
+}
+
+.project p {
+	font-family: arial, sans-serif;
+	font-size: 17px;
+	color:black;
+	background-color: white;
+	clear: both;
+	padding-bottom: 20px;
+	margin: 20px 10px 0px 20px;
+	border-bottom: 1px, solid black;
+}
+
+.project div {
+	font-size: 21px;
+	font-family: arial, sans-serif;
+	text-align: center;
+	line-height: 70px;
+	width: 60px;
+	height: 60px;
+	color: #555;
+	background-color: #CCCCCC;
+	margin: 20px 0px 80px 20px;
+	padding: 20px;
+
+	float: left;
+}
+
+.project div:hover {
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+#special {
+	background-color: orangered;
+}
+
+#link {
+	width: 255px;
+	height: 80px;
+	background-color: orangered;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	margin: auto 10px;
+	padding: 20px;
+	text-align: center;
+	margin: 20px 10px 70px 20px;
+
+	float: left;
+}
+
+#link:hover {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 25px;
+}
+
+img {
+	width: 100%;
+	font-family: monospace;
+	margin: 20px 20px 80px 20px;
+}
+
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 5em;
+    border-style: inset;
+    border-width: 2px;
+    color: #CCCCCC;
+}
+
+#page {
+	width: 900px;
+	height: 2200px;
+    padding: 80px 50px 80px 50px;
+    background-color: white;
+    margin: 100px auto 100px auto; 
+}
+
+html {
+    background-color: #CCCCCC;
+    background-attachment: fixed;
+}
